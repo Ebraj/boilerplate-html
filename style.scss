@@ -1,3 +1,14 @@
-@import "./partials/colors";
-@import "./partials/mixins";
-@import "./partials/typography";
+// Base
+@import "./scss-config/base/resets";
+
+// Helpers
+@import "./scss-config/helpers/colors";
+@import "./scss-config/helpers/responsive-typo";
+@import "./scss-config/helpers/mixins";
+
+// Components
+@import "./scss-config/components/buttons";
+@import "./scss-config/components/grids";
+
+// Pages
+@import "./scss-config/pages/home";
